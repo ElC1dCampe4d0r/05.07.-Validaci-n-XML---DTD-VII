@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Familiar
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio: 2
+-->
+<!DOCTYPE inventores [
+    <!ELEMENT inventores (inventor+)>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor 
+        nombre ID #REQUIRED
+        invento CDATA #REQUIRED
+    >
+]>
+<inventores>
+    <inventor nombre="Robert_Adler" invento="Mando a distancia" />
+    <inventor nombre="Laszlo_Josef_Biro" invento="Bolígrafo" />
+    <inventor nombre="Josephine_Garis_Cochran" invento="Lavaplatos" />
+</inventores>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Familiar
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio: 1
+-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor CDATA #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />
